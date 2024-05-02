@@ -151,11 +151,40 @@ let names = ['mario', 'luigi', 'toad'];
 // console.log(age <= 25);
 // console.log(age >= 25);
 
-let name = 'shaun';
+// let name = 'shaun';
 
-console.log(name == 'shaun');
-console.log(name == 'Shaun');
-console.log(name > 'crystal');
-console.log(name > 'Shaun');
-console.log(name > 'Crystal');
-console.log("Hello");
+// console.log(name == 'shaun');
+// console.log(name == 'Shaun');
+// console.log(name > 'crystal');
+// console.log(name > 'Shaun');
+// console.log(name > 'Crystal');
+
+// let age = 25;
+
+// loose comparison (different types can still be equal)
+
+// console.log(age == 25);
+// console.log(age == '25');
+// console.log(age != 25);
+// console.log(age != '25');
+
+// strict comparison (different types cannot be equal)
+
+// console.log(age === 25);
+// console.log(age === '25');
+// console.log(age !== 25);
+// console.log(age !== '25');
+
+//------------------------------------ type conversion-------------------------------
+let score = '100';
+
+//score = Number(score);
+// console.log(score + 1);
+// console.log(typeof score);
+
+// let result = Number('hello');
+//let result = String(50);
+//let result = Boolean(100);
+let result = Boolean('');
+
+console.log(result, typeof result);
